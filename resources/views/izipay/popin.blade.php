@@ -80,7 +80,7 @@
 
     <div class="wrapper">
         <!-- payment form -->
-        <div class="kr-smart-form" kr-form-token="{{ $formToken }}">
+        <div class="kr-smart-form"  kr-popin kr-form-token="{{ $formToken }}">
             @csrf
         </div>
         <div class="customerror"></div>

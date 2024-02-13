@@ -35,7 +35,7 @@ class IzipayController extends Controller
         }
 
         $formToken = $response["answer"]["formToken"];
-        return view('izipay.incrustado', compact('formToken'));
+        return view('izipay.popin', compact('formToken'));
     }
 
     public function success(Request $request)
