@@ -265,6 +265,7 @@ Si deseas aplicar cambios específicos en la apariencia de la pasarela de pago, 
 <p align="center">
   <img src="https://github.com/izipay-pe/Imagenes/blob/main/formulario_popin/Imagen-Formulario-Custom-Popin.png?raw=true" alt="Formulario Popin"/>
 </p>
+
 ## 📚 6. Consideraciones
 
 Para obtener más información, echa un vistazo a:
