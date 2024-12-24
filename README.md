@@ -25,7 +25,7 @@ Este manual está diseñado para ayudarte a comprender el flujo de la integraci�
 > En la última actualización se agregaron los campos: **nombre del tarjetahabiente** y **correo electrónico** (Este último campo se visualizará solo si el dato no se envía en la creación del formtoken).
 
 <p align="center">
-  <img src="https://github.com/izipay-pe/Imagenes/blob/main/formulario_incrustado/Imagen-Formulario-Incrustado.png?raw=true" alt="Formulario" width="350"/>
+  <img src="https://github.com/izipay-pe/Imagenes/blob/main/formulario_popin/Imagen-Formulario-Popin.png?raw=true" alt="Formulario" width="350"/>
 </p>
 
 ## 🔑 2. Requisitos Previos
@@ -49,7 +49,7 @@ Xampp, servidor web local multiplataforma que contiene los intérpretes para los
 ### Clonar el proyecto:
 
 ```sh
-git clone [https://github.com/izipay-pe/Embedded-PaymentForm-Laravel.git]
+git clone [https://github.com/izipay-pe/PopIn-PaymentForm-Laravel.git]
 ```
 
 ## Datos de conexión
@@ -260,12 +260,11 @@ IZIPAY_CLIENT_ENDPOINT=https://static.micuentaweb.pe
 
 ## 🎨 5. Personalización
 
-Si deseas aplicar cambios específicos en la apariencia de la pasarela de pago, puedes lograrlo mediante la modificación de código CSS. En este enlace [Código CSS - Incrustado](https://github.com/izipay-pe/Personalizacion/blob/main/Formulario%20Incrustado/Style-Personalization-Incrustado.css) podrá encontrar nuestro script para un formulario incrustado.
+Si deseas aplicar cambios específicos en la apariencia de la pasarela de pago, puedes lograrlo mediante la modificación de código CSS. En este enlace [Código CSS - Popin](https://github.com/izipay-pe/Personalizacion/blob/main/Formulario%20Popin/Style-Personalization-PopIn.css) podrá encontrar nuestro script para un formulario incrustado.
 
 <p align="center">
-  <img src="https://i.postimg.cc/zDddmKpH/persona.png" alt="Formulario"/>
+  <img src="https://github.com/izipay-pe/Imagenes/blob/main/formulario_popin/Imagen-Formulario-Custom-Popin.png?raw=true" alt="Formulario Popin"/>
 </p>
-
 ## 📚 6. Consideraciones
 
 Para obtener más información, echa un vistazo a:
