@@ -12,7 +12,8 @@ class IzipayController extends Controller
         return view('izipay.index');
     }
 
-    public function checkout(Request $request){
+    public function checkout(Request $request)
+    {
         // URL de Web Service REST
         $url = "https://api.micuentaweb.pe/api-payment/V4/Charge/CreatePayment";
 
@@ -67,7 +68,8 @@ class IzipayController extends Controller
         return view('izipay.checkout', compact("publicKey", "formToken"));
     }
 
-    public function result(Request $request){
+    public function result(Request $request)
+    {
         if (empty($request)) {
             throw new Exception("No post data received!");
         }
